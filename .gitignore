@@ -1,5 +1,7 @@
 # Build
 /dist
+/docs/build
+/docs/_jampack
 /lib
 /lib-types
 /server
