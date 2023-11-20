@@ -1,0 +1,1 @@
+import{S as t}from"./q-d38e1fd3.js";class e{}e.Names={Owner:"Mgr. Michaela Bondy",Company:"Ordinace klinické psychologie a psychoterapie"};const n=()=>t("span",null,{class:"self-center m-1 text-1xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white flex items-center"},e.Names.Owner,3,"tO_0");export{n as s_DnL6WFe0gF8};
