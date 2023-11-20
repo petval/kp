@@ -1,0 +1,1 @@
+import{S as l}from"./q-d38e1fd3.js";const t="/build/q-6009dba9.png",n=()=>l("span",null,{class:"self-center ml-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white flex items-center"},[l("img",null,{alt:"Qwind Logo",class:"inline-block mr-1",height:32,loading:"lazy",src:t,width:32},null,3,null),"Qwind"],3,"tO_0");export{n as s_DnL6WFe0gF8};
