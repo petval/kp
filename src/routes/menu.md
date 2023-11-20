@@ -3,6 +3,6 @@
 ## Stránky
 
 - [Služby](#)
-- [O nás](/o-nas)
-- [Podmínky](/podminky)
-- [Kontakty](/kontakty)
+- [O nás](/kp/o-nas)
+- [Podmínky](/kp/podminky)
+- [Kontakty](/kp/kontakty)

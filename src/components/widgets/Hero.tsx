@@ -39,8 +39,8 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="/"
-                    target="_blank"
+                    href="/kp/ostrava"
+                    // target="_blank"
                     rel="noopener"
                   >
                     Ostrava
@@ -50,8 +50,8 @@ export default component$(() => {
                   {/* <button class="btn w-full bg-gray-50 dark:bg-transparent">Learn more</button> */}
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/qwind"
-                    target="_blank"
+                    href="/kp/brusperk"
+                    // target="_blank"
                     rel="noopener"
                   >
                     Brušperk
