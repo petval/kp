@@ -1,10 +1,10 @@
 export const SITE = {
-  name: "Qwind",
+  name: "Mgr. Michaela Bondy - Ordinace klinické psychologie a psychoterapie ",
 
   title:
-    "Qwind — Free template for Qwik + Tailwind CSS to build your new website.",
+    "Mgr. Michaela Bondy - Ordinace klinické psychologie a psychoterapie ",
   description:
-    "Qwind is a free and ready to start template to make your website using Qwik and Tailwind CSS.",
+    "klinická psychologie, diagnostika, psychoreapie",
 
   // origin: "https://qwind.pages.dev",
   origin: "https://petval.github.io/kp",

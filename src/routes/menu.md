@@ -1,11 +1,8 @@
 # Menu
 
-## Pages
+## Stránky
 
-- [Services](#)
-- [Porfolio](#)
-- [About us](#)
-- [Terms](/terms)
-- [Privacy](/privacy)
-
-## [Blog](/blog)
+- [Služby](#)
+- [O nás](/o-nas)
+- [Podmínky](/podminky)
+- [Kontakty](/kontakty)

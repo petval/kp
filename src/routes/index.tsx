@@ -3,10 +3,10 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
-import Steps from "~/components/widgets/Steps";
+// import Steps from "~/components/widgets/Steps";
 import FAQs from "~/components/widgets/FAQs";
-import Stats from "~/components/widgets/Stats";
-import CallToAction from "~/components/widgets/CallToAction";
+// import Stats from "~/components/widgets/Stats";
+// import CallToAction from "~/components/widgets/CallToAction";
 
 import { qwikSerialized } from "~/utils/qwikSerialized";
 
@@ -64,9 +64,9 @@ export default component$(() => {
           },
         ]}
       />
-      <Steps />
+      {/* <Steps /> */}
       <FAQs
-        title="Frequently Asked Questions"
+        title="Často kladené otázky"
         subtitle="Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar."
         highlight="FAQs"
         items={[
@@ -102,8 +102,8 @@ export default component$(() => {
           },
         ]}
       />
-      <Stats />
-      <CallToAction />
+      {/* <Stats /> */}
+      {/* <CallToAction /> */}
     </>
   );
 });
