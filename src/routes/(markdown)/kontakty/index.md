@@ -19,7 +19,7 @@ Ordinace se nachází v šedomodré budově přímo naproti Cukrárny Ollies. Vc
 *Příjezd MHD*
 * BUS: č. 50, [zastávka Český dům](https://mapy.cz/s/buhasonafu)
 * TRAM: č. 1 a 6, [zastávka Český dům](https://mapy.cz/s/mebozurano).
-* TRAM č. 2, 3, 7, 11, 12, 17 a BUS č. 39 - pěšky asi 10 min. chůze z [Mírového náměstí](https://mapy.cz/s/ratogapena), jít ulicí Jeremenkova, na konci zabočit doleva na ulici Halasova, na kruhovém objezdu doprava je ulice Výstavní.
+* TRAM č. 2, 3, 7, 11, 12, 17 a BUS č. 39 - [zastávky Mírové náměstí](https://mapy.cz/s/ratogapena) - pěšky asi 10 min. chůze, jít ulicí Jeremenkova, na konci zabočit doleva na ulici Halasova, na kruhovém objezdu doprava je ulice Výstavní.
 
 
 ### Brušperk

@@ -8,6 +8,6 @@ export const SITE = {
 
   // origin: "https://qwind.pages.dev",
   origin: "https://petval.github.io/kp",
-  basePathname: "/",
+  basePathname: "/kp",
   trailingSlash: true,
 };
