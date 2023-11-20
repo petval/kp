@@ -1,9 +1,11 @@
 # Menu
 
-## Stránky
+## Služby
+- [Ostrava](/kp/ostrava)
+- [Brušperk](/kp/brusperk)
+- [Vzdělávání](/kp/vzdelavani)
 
-- [Služby](#)
-- [O nás](/kp/o-nas)
-- [O nás MD](/kp/o-nas-md)
-- [Podmínky](/kp/podminky)
+## Kontakty
 - [Kontakty](/kp/kontakty)
+- [O nás](/kp/o-nas)
+- [Podmínky](/kp/podminky)

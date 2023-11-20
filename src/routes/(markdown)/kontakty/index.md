@@ -1,6 +1,6 @@
 ## Objednávky:
 
-* **Telefonicky** na čísle +420 608 959 030 **mezi 12:00 a 12:30**. Pevná linka byla zrušena!
+* **Telefonicky** na čísle *+420 608 959 030*. Pevná linka byla zrušena!
 * **Emailem** kdykoli: ordinace@klinickapsycholozka.cz
 
 

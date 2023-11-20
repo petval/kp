@@ -6,28 +6,16 @@ const sideImg = "https://images.unsplash.com/photo-1583195648430-18b2681307e7?ix
 
 export default component$(() => {
   const stepsData = {
-    title: 'Sed ac magna sit amet risus tristique interdum. hac.',
+    title: 'Vzdělávání psychologů a práce u nás.',
     items: [
       {
-        title: 'Step 1',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+        title: 'Vzdělávání',
+        description: 'Pracoviště je akreditováno k uskutečňování vzdělávacího programu v oboru klinická psychologie u Ministerstva zdravotnictví České republiky',
         icon: IconStar,
       },
       {
-        title: 'Step 2',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
-        icon: IconStar,
-      },
-      {
-        title: 'Step 3',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
-        icon: IconStar,
-      },
-      {
-        title: 'Ready!',
+        title: 'Práce',
+        description: 'Přijmeme psycholožku / psychologa se specializačním kurzem pro zdravotnictví (anebo v přípravě), psycholožku / psychologa v atestační přípravě, klinickou psycholožku / klinického psychologa.',
         icon: IconStar,
       },
     ],
@@ -43,27 +31,21 @@ export default component$(() => {
       <div class="row-gap-10 grid gap-6 md:grid-cols-2">
         <div class="mb-4 md:mb-0 md:py-4 md:pr-16">
           {title && <h2 class="font-heading mb-8 text-3xl font-bold lg:text-4xl">{title}</h2>}
-          {items &&
-            items.length &&
-            items.map(({ title, description, icon: Icon }, index) => (
+          {items.map(({ title, description, icon: Icon }, index) => (
               <div key={`item-steps-${index}`} class="flex">
                 <div class="mr-4 flex flex-col items-center">
                   <div>
                     {index !== items.length - 1 ? (
                       <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900">
-                        {Icon ? (
-                          <Icon class="h-6 w-6 text-primary-800 dark:text-slate-200" />
-                        ) : (
-                          <IconStar class="h-6 w-6 text-primary-800 dark:text-slate-200" />
-                        )}
+                        {Icon
+                          ? ( <Icon class="h-6 w-6 text-primary-800 dark:text-slate-200" />)
+                          : ( <IconStar class="h-6 w-6 text-primary-800 dark:text-slate-200" /> )}
                       </div>
                     ) : (
                       <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900 bg-primary-900">
-                        {Icon ? (
-                          <Icon class="h-6 w-6 text-white dark:text-slate-200" />
-                        ) : (
-                          <IconStar class="h-6 w-6 text-white dark:text-slate-200" />
-                        )}
+                        {Icon
+                          ? ( <Icon class="h-6 w-6 text-white dark:text-slate-200" /> )
+                          : ( <IconStar class="h-6 w-6 text-white dark:text-slate-200" /> )}
                       </div>
                     )}
                   </div>
@@ -78,6 +60,7 @@ export default component$(() => {
         </div>
         <div class="relative">
           {image && (
+
             <Image
               layout="constrained"
               src={image.src}
