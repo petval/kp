@@ -9,7 +9,8 @@ export const SITE = {
     'klinická psychologie, diagnostika, psychoreapie',
 
   // origin: "https://qwind.pages.dev",
-  origin: `https://petval.github.io${Constants.RepoPath}`,
-  basePathname: '/',
+  origin: `https://petval.github.io`,
+  basePathname: '/kp',
   trailingSlash: true,
+
 };

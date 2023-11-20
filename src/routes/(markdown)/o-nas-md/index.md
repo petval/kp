@@ -1,7 +1,7 @@
 # O nás
 
 ## Mgr. Michaela Bondy
-**klinická psycholožka, psychoterapeutka** ![Mgr. Michaela Bondy](/images/foto/lide/michaela.jpg)
+**klinická psycholožka, psychoterapeutka** ![Mgr. Michaela Bondy](/kp/images/foto/lide/michaela.jpg)
 
 
 ## Mgr. Jana Vyvlečková
@@ -11,7 +11,7 @@
 
 ## Mgr. Marie Vondrášková
 **psycholog ve zdravotnictví**
-![Mgr. Marie Vondrášková](/images/foto/lide/marie.jpg)
+![Mgr. Marie Vondrášková](/kp/images/foto/lide/marie.jpg)
 
 ## Andrea Panenková
 **asistentka**

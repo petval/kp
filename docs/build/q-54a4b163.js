@@ -1,0 +1,1 @@
+import{C as t}from"./q-050e23f2.js";import{S as e}from"./q-5b8b421b.js";const s=()=>e("span",null,{class:"self-center m-1 text-1xl md:text-xl font-bold text-gray-900 dark:text-white flex items-center"},[t.Names.Owner,e("br",null,null,null,3,null),t.Names.Company],3,"tO_0");export{s as s_DnL6WFe0gF8};

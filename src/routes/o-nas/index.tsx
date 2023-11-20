@@ -5,7 +5,7 @@ import { SITE } from "~/config.mjs"
 
 const items = [
   {
-    name: 'Mgr. Michaela Bondy', pos: 'klinická psycholožka, psychoterapeutka', img: '/images/foto/lide/michaela.jpg',
+    name: 'Mgr. Michaela Bondy', pos: 'klinická psycholožka, psychoterapeutka', img: '/kp/images/foto/lide/michaela.jpg',
     desc: null
   },
   {
@@ -13,7 +13,7 @@ const items = [
     desc: null
   },
   {
-    name: 'Mgr. Marie Vondrášková', pos: 'psycholožka ve zdravotnictví', img: '/images/foto/lide/marie.jpg',
+    name: 'Mgr. Marie Vondrášková', pos: 'psycholožka ve zdravotnictví', img: '/kp/images/foto/lide/marie.jpg',
     desc: null
   },
   {

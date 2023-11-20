@@ -1,0 +1,1 @@
+import{C as a}from"./q-050e23f2.js";const i={name:`${a.Names.Owner} - ${a.Names.Company}`,title:`${a.Names.Owner} - ${a.Names.Company}`,description:"klinická psychologie, diagnostika, psychoreapie",origin:"https://petval.github.io",basePathname:"/kp",trailingSlash:!0};export{i as S};
