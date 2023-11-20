@@ -7,9 +7,11 @@ import {
 
 import { RouterHead } from "~/components/common/RouterHead";
 import { DarkThemeLauncher } from "~/components/common/DarkThemeLauncher";
+export const subpath = Constants.RepoPath;
 
 // import "@fontsource-variable/inter";
 import globalStyles from "~/assets/styles/global.css?inline";
+import { Constants } from "./constants"
 
 export default component$(() => {
   /**
@@ -26,7 +28,8 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="manifest" href="/manifest.json" />
+        {/* <link rel="manifest" href="/manifest.json" /> */}
+        <link rel='manifest' href={`${subpath}/manifest.json`} />
         {/* <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
           rel="stylesheet"

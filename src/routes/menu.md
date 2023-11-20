@@ -3,7 +3,7 @@
 ## Stránky
 
 - [Služby](#)
-- [O nás](/kp/o-nas)
-- [O nás MD](/kp/o-nas-md)
+- [O nás](/o-nas)
+- [O nás MD](/o-nas-md)
 - [Podmínky](/kp/podminky)
 - [Kontakty](/kp/kontakty)
