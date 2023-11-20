@@ -1,13 +1,15 @@
+import { Constants } from "./constants";
+
 export const SITE = {
-  name: "Mgr. Michaela Bondy - Ordinace klinické psychologie a psychoterapie ",
+  name: `${Constants.Names.Owner} - ${Constants.Names.Company}`,
 
   title:
-    "Mgr. Michaela Bondy - Ordinace klinické psychologie a psychoterapie ",
+    `${Constants.Names.Owner} - ${Constants.Names.Company}`,
   description:
-    "klinická psychologie, diagnostika, psychoreapie",
+    'klinická psychologie, diagnostika, psychoreapie',
 
   // origin: "https://qwind.pages.dev",
-  origin: "https://petval.github.io/",
-  basePathname: "/kp/",
+  origin: 'https://petval.github.io',
+  basePathname: '/kp/',
   trailingSlash: true,
 };
