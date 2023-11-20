@@ -1,0 +1,1 @@
+const t={text:"Menu",items:[{text:"Stránky",items:[{text:"Služby",href:"#"},{text:"O nás",href:"/kp/o-nas/"},{text:"Podmínky",href:"/kp/podminky/"},{text:"Kontakty",href:"/kp/kontakty/"}]}]};export{t as default};
