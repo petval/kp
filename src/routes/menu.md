@@ -3,9 +3,9 @@
 ## Služby
 - [Ostrava](/kp/ostrava)
 - [Brušperk](/kp/brusperk)
-- [Vzdělávání](/kp/vzdelavani)
+- [Vzdělávání a práce](/kp/vzdelavani-a-prace)
 
 ## Kontakty
 - [Kontakty](/kp/kontakty)
 - [O nás](/kp/o-nas)
-- [Podmínky](/kp/podminky)
+- [Média](/kp/media)

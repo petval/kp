@@ -1,36 +1,62 @@
-import { component$, useStore } from "@builder.io/qwik";
-import { useContent } from "@builder.io/qwik-city";
+import { component$, useStore } from "@builder.io/qwik"
+import { useContent } from "@builder.io/qwik-city"
 
-import Logo from "~/components/common/Logo";
-import ToggleTheme from "~/components/common/ToggleTheme";
-import ToggleMenu from "~/components/common/ToggleMenu";
-import IconChevronDown from "../icons/IconChevronDown";
+import Logo from "~/components/common/Logo"
+import ToggleTheme from "~/components/common/ToggleTheme"
+import ToggleMenu from "~/components/common/ToggleMenu"
+import IconChevronDown from "../icons/IconChevronDown"
 
 export default component$(() => {
   const store = useStore({
     isScrolling: false,
-  });
+    isScrollingUp: false,
+    currentScrollY: 0
+  })
 
-  const { menu } = useContent();
+  const { menu } = useContent()
 
+  // const headerClass =  `${store.isScrollingUp ? "sticky" : ""}
+  //       top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out
+  //       ${store.isScrolling
+  //         ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
+  //         : ""
+  //       }
+  //     `
+  // console.log({ headerClass })
   return (
     <header
       id="header"
-      class={`sticky top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
-        store.isScrolling
+      // class={headerClass}
+      class={
+        `${store.isScrollingUp ? "sticky" : ""}
+        top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out
+        ${store.isScrolling
           ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
           : ""
-      }`}
+        }
+      `}
       window:onScroll$={() => {
-        if (!store.isScrolling && window.scrollY >= 10) {
-          store.isScrolling = true;
-        } else if (store.isScrolling && window.scrollY < 10) {
-          store.isScrolling = false;
+        const currentScrollY = window.scrollY
+        console.log({ scrollY: window.scrollY })
+
+        if (!store.isScrolling && currentScrollY >= 10) {
+          store.isScrolling = true
+        } else if (store.isScrolling && currentScrollY < store.currentScrollY) {
+          store.isScrolling = false
+        }
+        if (store.isScrolling && currentScrollY > store.currentScrollY) {
+          store.isScrollingUp = false
+        } else {
+          store.isScrollingUp = true
+        }
+        store.currentScrollY = currentScrollY
+        if (store.isScrolling) {
+          console.log({ isScrollingUp: store.isScrollingUp })
         }
       }}
     >
-      <div class="absolute inset-0"></div>
-      <div class="relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
+      <div class="relative inset-0"></div>
+      <div class="relative text-default py-0 px-0 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
             <Logo />
