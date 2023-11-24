@@ -4,7 +4,7 @@ import { Constants } from "~/constants";
 // @ts-ignore
 // import logoSrc from "~/assets/images/logo.png?width=64&height=64&png";
 // import logoSrc from "/images/kp.site.logo.png?height=64&png"
-import logoSrc from "/images/logo.jpg"
+// import logoSrc from "/images/logo.jpg"
 
 export default component$(() => (
   <>
