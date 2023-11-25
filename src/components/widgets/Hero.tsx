@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Image } from "@unpic/qwik";
+import { subpath } from "~/root";
 
 const coverImage =
   "https://images.unsplash.com/photo-1590767950092-42b8362368da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80";
@@ -7,16 +8,12 @@ const coverImage =
 export default component$(() => {
   return (
     <>
-      {/* <div class="relative "> <p style="color:red">Aktuálně máme velmi krátké termíny na psychodiagnostiku dětí i dospělých.</p> </div> */}
     <section class="relative md:-mt-[76px] not-prose">
 
       {/* <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div> */}
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
         {/* <div class="pt-0 md:pt-[76px] pointer-events-none"></div> */}
         <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
-          {/* <div class="basis-1/8 text-center lg:text-left pb-10 md:pb-16 mx-auto">
-            <p style="color:red">Aktuálně máme velmi krátké termíny na psychodiagnostiku dětí i dospělých.</p>
-          </div> */}
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h3 style="color:red"><strong>Aktuálně</strong> máme velmi krátké termíny na psychodiagnostiku dětí i dospělých</h3>
             <br/>
@@ -49,7 +46,7 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="/kp/ostrava"
+                    href={`${subpath}/ostrava`}
                     // target="_blank"
                     rel="noopener"
                   >
@@ -60,7 +57,7 @@ export default component$(() => {
                   {/* <button class="btn w-full bg-gray-50 dark:bg-transparent">Learn more</button> */}
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="/kp/brusperk"
+                    href={`${subpath}/brusperk`}
                     // target="_blank"
                     rel="noopener"
                   >

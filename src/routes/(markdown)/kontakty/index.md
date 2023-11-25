@@ -1,15 +1,16 @@
 ## Objednávky:
 
-* **Telefonicky** na čísle *+420 608 959 030*. Pevná linka byla zrušena!
-* **Emailem** kdykoli: ordinace@klinickapsycholozka.cz
+* **Telefonicky** *+420 608 959 030*. Pevná linka byla zrušena!
+* **Emailem** *ordinace@klinickapsycholozka.cz*
 
 
 ## Jak se k nám dostanete:
 
 ### Ostrava
 
-__Výstavní 111, Ostrava – Vítkovice, 703 00__ - více na mapách
-[Seznam](https://mapy.cz/s/robukanaru) nebo [Google](https://maps.app.goo.gl/4zbzusjUkaZJt72v5).
+__Výstavní 111, Ostrava – Vítkovice, 703 00__
+
+mapy [Seznam](https://mapy.cz/s/robukanaru) nebo [Google](https://maps.app.goo.gl/4zbzusjUkaZJt72v5).
 
 Ordinace se nachází v šedomodré budově přímo naproti Cukrárny Ollies. Vchod do budovy je ze zadního traktu, ordinaci najdete na konci budovy ve druhých vstupních dveřích.
 
@@ -26,11 +27,17 @@ Ordinace se nachází v šedomodré budově přímo naproti Cukrárny Ollies. Vc
 
 __Veselíčko 1064, Brušperk, 739 44__
 
-* parkování  - více na mapách
-[Seznam](https://mapy.cz/s/mucojonage) nebo [Google](https://maps.app.goo.gl/GWnKb9weAVqMTiRL6).
+mapy [Seznam](https://mapy.cz/s/bozetasecu) nebo [Google](https://maps.app.goo.gl/6XXFZjbUsxgKZUTv6).
 
-* z parkoviště dojděte pešky k ordinaci - trasa [Google](https://mapy.cz/s/mucojonage)
+*Příjezd autem*
+* parkování - mapy [Seznam](https://mapy.cz/s/mucojonage) nebo [Google](https://maps.app.goo.gl/GWnKb9weAVqMTiRL6).
+* z parkoviště dojděte pešky cca 4 min k ordinaci - trasa [Seznam](https://mapy.cz/s/maropokeda) nebo [Google](https://mapy.cz/s/mucojonage)
 
-* ordinace  - více na mapách
-[Seznam](https://mapy.cz/s/bozetasecu) nebo [Google](https://maps.app.goo.gl/6XXFZjbUsxgKZUTv6).
 
+*Příjezd MHD*
+* zastávka Brušperk - Staroveská - cca 8 min chůze. Trasa [Seznam](https://mapy.cz/s/rehocapebe) nebo [Google](https://maps.app.goo.gl/mbmv4Cx8JyHE2UJS6)
+* zastávka Brušperk - Krmelínská - cca 12 min chůze. Trasa [Seznam](https://mapy.cz/s/rehocapebe) nebo [Google](https://maps.app.goo.gl/MeEqVvRmZhDUSV9V6)
+
+## IČ
+
+68316992

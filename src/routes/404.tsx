@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+// import { subpath } from "~/root";
 
 export default component$(() => {
   return (
@@ -12,7 +13,8 @@ export default component$(() => {
           </h2>
           <p class="text-3xl font-medium md:text-3xl">Stránka nenalezena.</p>
           <p class="mt-4 mb-8 text-lg text-muted">
-            Zkuste najít, co hledáte, na <a rel="noopener noreferrer" href="/kp" >naší domovské stránce</a>.
+            {/* Zkuste najít, co hledáte, na <a rel="noopener noreferrer" href={`${subpath}/`} >naší domovské stránce</a>. */}
+            Zkuste najít, co hledáte, na <a rel="noopener noreferrer" href="/" >naší domovské stránce</a>.
           </p>
         </div>
       </div>

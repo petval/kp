@@ -1,6 +1,7 @@
 # Build
 /dist/*
 /lib
+/oldweb
 /lib-types
 /server
 

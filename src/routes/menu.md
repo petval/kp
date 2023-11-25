@@ -1,11 +1,11 @@
 # Menu
 
 ## Služby
-- [Ostrava](/kp/ostrava)
-- [Brušperk](/kp/brusperk)
-- [Vzdělávání a práce](/kp/vzdelavani-a-prace)
+- [Ostrava](/ostrava)
+- [Brušperk](/brusperk)
+- [Vzdělávání a práce](/vzdelavani-a-prace)
 
 ## Kontakty
-- [Kontakty](/kp/kontakty)
-- [O nás](/kp/o-nas)
-- [Média](/kp/media)
+- [Kontakty](/kontakty)
+- [O nás](/o-nas)
+- [Média a publikace](/media-a-publikace)

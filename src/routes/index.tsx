@@ -50,9 +50,9 @@ export default component$(() => {
       />
       <Steps />
       <FAQs
-        title="Často kladené otázky"
+        title=""
         subtitle=""
-        highlight="FAQ"
+        highlight="Často kladené otázky"
         items={[
           {
             title: 'Jak dlouhé máte čekací doby?',

@@ -9,24 +9,27 @@ import { Link } from "@builder.io/qwik-city";
 export default component$(() => {
   const links = [
     {
-      title: "Stránky",
+      title: "Služby",
       items: [
-        { title: "Služby", href: "/sluzby" },
-        { title: "O nás", href: "/o-nas" },
-        { title: "Podmínky", href: "/podminky" },
-        { title: "Kontakty", href: "/kontakty" },
+        { title: "Přehled služeb", href: "/" },
+        { title: "Vzdělávání a práce", href: "/vzdelavani-a-prace" },
       ],
     },
-    // {
-    //   title: "Platform",
-    //   items: [
-    //     { title: "Developer API", href: "#" },
-    //     { title: "Partners", href: "#" },
-    //     { title: "Atom", href: "#" },
-    //     { title: "Electron", href: "#" },
-    //     { title: "Qwind Desktop", href: "#" },
-    //   ],
-    // },
+    {
+      title: "Pobočky",
+      items: [
+        { title: "Ostrava", href: "/ostrava" },
+        { title: "Brušperk", href: "/brusperk" },
+      ],
+    },
+    {
+      title: "Kontakty a informace",
+      items: [
+        { title: "Kontakty", href: "/kontakty" },
+        { title: "Náš tým", href: "/o-nas" },
+        { title: "Média a publikace", href: "/media-a-publikace" },
+      ],
+    },
     // {
     //   title: "Support",
     //   items: [

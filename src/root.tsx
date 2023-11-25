@@ -30,10 +30,10 @@ export default component$(() => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="manifest" href="/manifest.json" /> */}
         <link rel='manifest' href={`${subpath}/manifest.json`} />
-        {/* <link
+        <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
           rel="stylesheet"
-        /> */}
+        />
         <RouterHead />
         <DarkThemeLauncher />
         <ServiceWorkerRegister />
