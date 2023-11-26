@@ -4,8 +4,9 @@
 - [Ostrava](/ostrava)
 - [Brušperk](/brusperk)
 - [Vzdělávání a práce](/vzdelavani-a-prace)
+- [Přehled](/)
 
-## Kontakty
-- [Kontakty](/kontakty)
-- [O nás](/o-nas)
+## Klentům
+- [Objednávky](/objednavky)
+- [Náš tým](/nas-tym)
 - [Média a publikace](/media-a-publikace)

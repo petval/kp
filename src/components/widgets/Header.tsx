@@ -15,31 +15,21 @@ export default component$(() => {
 
   const { menu } = useContent()
 
-  // const headerClass =  `${store.isScrollingUp ? "sticky" : ""}
-  //       top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out
-  //       ${store.isScrolling
-  //         ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
-  //         : ""
-  //       }
-  //     `
-  // console.log({ headerClass })
   return (
     <header
       id="header"
-      // class={headerClass}
       class={
-        `${store.isScrollingUp ? "sticky" : ""}
-        top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out
+        `top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 bg-opacity-100 bg-white dark:bg-slate-900
+        ${store.isScrollingUp ? "sticky" : ""}
         ${store.isScrolling
-          ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
+          ? " bg-white dark:bg-slate-900/90 md:backdrop-blur-sm transition-[opacity] ease-in-out"
           : ""
-        }
-      `}
+        }`
+      }
       window:onScroll$={() => {
         const currentScrollY = window.scrollY
-        console.log({ scrollY: window.scrollY })
 
-        if (!store.isScrolling && currentScrollY >= 10) {
+        if (!store.isScrolling && currentScrollY >= 1) {
           store.isScrolling = true
         } else if (store.isScrolling && currentScrollY < store.currentScrollY) {
           store.isScrolling = false
@@ -50,9 +40,6 @@ export default component$(() => {
           store.isScrollingUp = true
         }
         store.currentScrollY = currentScrollY
-        if (store.isScrolling) {
-          console.log({ isScrollingUp: store.isScrollingUp })
-        }
       }}
     >
       <div class="relative inset-0"></div>
@@ -107,17 +94,9 @@ export default component$(() => {
             <div class="flex">
               <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
             </div>
-            {/* <span class="ml-4 rtl:ml-0 rtl:mr-4">
-              <a
-                href="https://github.com/onwidget/qwind"
-                class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
-              >
-                Download
-              </a>
-            </span> */}
           </div>
         </div>
       </div>
     </header>
-  );
-});
+  )
+})

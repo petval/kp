@@ -1,14 +1,12 @@
-## Objednávky:
+<div>
+<h2>Jak se k nám dostanete:</h2>
 
-* **Telefonicky** *+420 608 959 030*. Pevná linka byla zrušena!
-* **Emailem** *ordinace@klinickapsycholozka.cz*
+<div>
+<h3>Ostrava</h3>
 
-
-## Jak se k nám dostanete:
-
-### Ostrava
-
-__Výstavní 111, Ostrava – Vítkovice, 703 00__
+<p><strong>Výstavní 111, Ostrava – Vítkovice, 703 00</strong></p>
+</div>
+</div>
 
 mapy [Seznam](https://mapy.cz/s/robukanaru) nebo [Google](https://maps.app.goo.gl/4zbzusjUkaZJt72v5).
 
@@ -36,7 +34,7 @@ mapy [Seznam](https://mapy.cz/s/bozetasecu) nebo [Google](https://maps.app.goo.g
 
 *Příjezd MHD*
 * zastávka Brušperk - Staroveská - cca 8 min chůze. Trasa [Seznam](https://mapy.cz/s/rehocapebe) nebo [Google](https://maps.app.goo.gl/mbmv4Cx8JyHE2UJS6)
-* zastávka Brušperk - Krmelínská - cca 12 min chůze. Trasa [Seznam](https://mapy.cz/s/rehocapebe) nebo [Google](https://maps.app.goo.gl/MeEqVvRmZhDUSV9V6)
+* zastávka Brušperk - Krmelínská - cca 12 min chůze. Trasa [Seznam](https://mapy.cz/s/bubukukane) nebo [Google](https://maps.app.goo.gl/MeEqVvRmZhDUSV9V6)
 
 ## IČ
 

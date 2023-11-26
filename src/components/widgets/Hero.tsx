@@ -28,11 +28,11 @@ export default component$(() => {
               <span class="sm:whitespace-nowrap text-[#039de1]">Tailwind CSS</span>
             </h1> */}
             <div class="max-w-xl mx-auto lg:max-w-none">
-              <p class="text-xm text-muted mb-6 dark:text-slate-300">
+              <p class="text-xm text-muted mb-6 dark:text-slate-300 left">
                 {/* <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
                   Qwind
                 </span>{" "} */}
-                Naše služby posktyjeme<br/>v <em>Ostravě</em> - diagnostiku, psychoterapii a krizovou intervenci<br/>a v <em>Brušperku</em> - psychoterapii a krizovou intervenci.
+                Naše služby posktyjeme<br/>v <em>Ostravě</em> - diagnostiku, psychoterapii a krizovou intervenci<br/>a v <em>Brušperku</em> - psychoterapii a krizovou intervenci. Většina Péče v naší ordinaci je hrazená z konta zdravotního pojištění.
                 {/* has been designed following Best Practices, SEO, Accessibility,{" "} */}
                 {/* <span class="inline md:hidden">...</span>
                 <span class="hidden md:inline">
@@ -47,7 +47,6 @@ export default component$(() => {
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
                     href={`${subpath}/ostrava`}
-                    // target="_blank"
                     rel="noopener"
                   >
                     Ostrava
@@ -58,7 +57,6 @@ export default component$(() => {
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
                     href={`${subpath}/brusperk`}
-                    // target="_blank"
                     rel="noopener"
                   >
                     Brušperk

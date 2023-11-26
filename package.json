@@ -23,6 +23,7 @@
     "@builder.io/qwik": "1.2.16",
     "@builder.io/qwik-city": "1.2.16",
     "@fontsource-variable/inter": "^5.0.15",
+    "@qwikest/icons": "^0.0.13",
     "@unpic/qwik": "^0.0.30",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.2",

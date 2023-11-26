@@ -23,15 +23,16 @@ export default component$(() => {
       ],
     },
     {
-      title: "Kontakty a informace",
+      title: "Klientům",
       items: [
-        { title: "Kontakty", href: "/kontakty" },
-        { title: "Náš tým", href: "/o-nas" },
+        { title: "Objedávky", href: "/objednavky" },
+        // { title: "Kontakty", href: "/kontakty" },
+        { title: "Náš tým", href: "/nas-tym" },
         { title: "Média a publikace", href: "/media-a-publikace" },
       ],
     },
     // {
-    //   title: "Support",
+    //   title: "Informace",
     //   items: [
     //     { title: "Docs", href: "#" },
     //     { title: "Community Forum", href: "#" },
@@ -40,18 +41,15 @@ export default component$(() => {
     //     { title: "Status", href: "#" },
     //   ],
     // },
-    // {
-    //   title: "Company",
-    //   items: [
-    //     { title: "About", href: "#" },
-    //     { title: "Blog", href: "#" },
-    //     { title: "Careers", href: "#" },
-    //     { title: "Press", href: "#" },
-    //     { title: "Inclusion", href: "#" },
-    //     { title: "Social Impact", href: "#" },
-    //     { title: "Shop", href: "#" },
-    //   ],
-    // },
+    {
+      title: "Společnost",
+      items: [
+        { title: "+420 608 959 030", href: "" },
+        { title: "ordinace@klinickapsycholozka.cz", href: "" },
+        { title: "IČ: 68316992", href: "" },
+        // { title: "Blog", href: "#" },
+      ]
+    },
   ];
 
   // const social = [

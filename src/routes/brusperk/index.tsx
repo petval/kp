@@ -3,6 +3,8 @@ import { SITE } from '~/config.mjs'
 import { qwikSerialized } from '~/utils/qwikSerialized'
 import { component$ } from '@builder.io/qwik'
 import type { DocumentHead } from "@builder.io/qwik-city"
+import { Headline } from '~/components/ui/Headline'
+import { HiLinkOutline } from '@qwikest/icons/heroicons'
 
 const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
 // const IconStar = qwikSerialized(() => import("../../components/icons/IconStar"));
@@ -29,7 +31,7 @@ export default component$(() => {
 			<Features
 				highlight='Poskytované služby'
 				title=''
-				subtitle=''
+				subtitle='Mgr. Michaela Bondy'
 				items={[
 					{
 						title: 'Psychoterapie',
@@ -54,6 +56,22 @@ export default component$(() => {
 				]}
 			/>
 
+			<Headline
+				title={''}
+				subtitle={''}
+				highlight={'Veselíčko 1064, Brušperk, 739 44'}
+			/>
+
+			<div class="text-base md:text-base leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200 m-8 wrap p-4">
+				<div class="py-2"><strong>Příjezd autem</strong>: parkovací místo na mapách <a href="https://mapy.cz/s/mucojonage">Seznam</a> nebo <a href="https://maps.app.goo.gl/GWnKb9weAVqMTiRL6">Google</a>.</div>
+				<div  class="py-2"><strong>Příjezd MHD</strong>:
+					<ul class="py-2">
+						<li><div class="ml-4 flex">cca 8 min chůze ze&nbsp;<a href='https://mapy.cz/s/fenutafafe'>zastávky Brušperk - Staroveská</a>&nbsp;<HiLinkOutline/></div></li>
+						<li><div class="ml-4 flex">cca 12 min chůze ze&nbsp;<a href='https://mapy.cz/s/nocodesega'>zastávky Brušperk - Krmelínská</a>&nbsp;<HiLinkOutline/></div></li>
+					</ul>
+				</div>
+			</div>
+
 			<div class="text-base md:text-base leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200 m-8 flex flex-wrap p-5">
 				<div class="p-0 m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
 					Trasa z parkoviště<br />
@@ -67,7 +85,7 @@ export default component$(() => {
 
 				<div class="p-0 m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
 					Trasa ze zastávky Krmelínská<br />
-					<iframe style="border:none" src="https://frame.mapy.cz/s/motukojevo" width="256" height="256" frameBorder="0"></iframe>
+					<iframe style="border:none" src="https://frame.mapy.cz/s/jugohofebo" width="256" height="256" frameBorder="0"></iframe>
 				</div>
 			</div>
 
