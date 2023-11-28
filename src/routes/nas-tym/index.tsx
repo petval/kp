@@ -18,7 +18,7 @@ const items = [
 	},
 	{
 		name: 'Mgr. Jana Vyvlečková', pos: 'Psycholožka ve zdravotnictví', img: `${subpath}/images/foto/lide/jana.jpg`,
-		desc: 'V ordinaci pracuje od roku 2021. Vzdělává se a pracuje v rámci náležitostí předatestační přípravy pro klinickou psychologii pod supervizí klinické psycholožky Mgr. Michaely Bondy. Frekventantka psychoterapeutického výcviku Transformační systemické terapie podle V. Satirové (výcvik je certifikován Českou psychoterapeutickou společností ČLK JEP); provádí individuální diagnostiku kognitivních funkcí dětí od šesti let a dospělých osob, individuální konzultace psychologických obtíží a terapeutickou péči dle vzdělávání v psychoterapeutickém výcviku',
+		desc: 'V ordinaci pracuje od roku 2020. Vzdělává se a pracuje v rámci náležitostí předatestační přípravy pro klinickou psychologii pod supervizí klinické psycholožky Mgr. Michaely Bondy. Frekventantka psychoterapeutického výcviku Transformační systemické terapie podle V. Satirové (výcvik je certifikován Českou psychoterapeutickou společností ČLK JEP); provádí individuální diagnostiku kognitivních funkcí dětí od šesti let a dospělých osob, individuální konzultace psychologických obtíží a terapeutickou péči dle vzdělávání v psychoterapeutickém výcviku',
 		edu: 'Promovala z jednoooborové psychologie na FF UP v Olomouci v roce 2019.',
 		elements: []
 
