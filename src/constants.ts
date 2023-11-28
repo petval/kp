@@ -5,4 +5,5 @@ export class Constants {
 		Owner: 'Mgr. Michaela Bondy',
 		Company: 'Ordinace klinické psychologie a psychoterapie'
 	}
+
 }

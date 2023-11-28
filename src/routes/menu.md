@@ -6,7 +6,7 @@
 - [Vzdělávání a práce](/vzdelavani-a-prace)
 - [Přehled](/)
 
-## Klentům
+## Klientům
 - [Objednávky](/objednavky)
 - [Náš tým](/nas-tym)
 - [Média a publikace](/media-a-publikace)

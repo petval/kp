@@ -32,7 +32,7 @@ export default component$(() => {
                 {/* <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">
                   Qwind
                 </span>{" "} */}
-                Naše služby posktyjeme<br/>v <em>Ostravě</em> - diagnostiku, psychoterapii a krizovou intervenci<br/>a v <em>Brušperku</em> - psychoterapii a krizovou intervenci. Většina Péče v naší ordinaci je hrazená z konta zdravotního pojištění.
+                Naše služby posktyjeme<br/>v <em>Ostravě</em> - diagnostiku, psychoterapii a krizovou intervenci<br/>a v <em>Brušperku</em> - psychoterapii a krizovou intervenci. Většina péče v naší ordinaci je hrazená z konta zdravotního pojištění, máme smlouvy s těmito pojišťovnami - 111 VZP, 201 VoZP, 205 ČPZP, 207 OZP, 211 ZPMV, 213 RBP.
                 {/* has been designed following Best Practices, SEO, Accessibility,{" "} */}
                 {/* <span class="inline md:hidden">...</span>
                 <span class="hidden md:inline">
