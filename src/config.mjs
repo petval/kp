@@ -6,7 +6,7 @@ export const SITE = {
   title:
     `${Constants.Names.Owner} - ${Constants.Names.Company}`,
   description:
-    'klinická psychologie, diagnostika, psychoterapie, psycholožka, psycholog, psychologie, terapie',
+    'klinická psychologie, diagnostika, psychoterapie, psycholožka, psycholog, psychologie, terapie, krizová interfence, duševní zdraví, zdraví, vzdělávání, ministerstvo zdravotnictví',
 
   // origin: "https://qwind.pages.dev",
   // origin: `https://petval.github.io`,

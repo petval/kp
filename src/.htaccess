@@ -1,0 +1,17 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+# RewriteRule ^index\.php$ - [L]
+# RewriteRule ^index\.php$ / [L]
+RewriteRule ^kontakt$ / [R=301,L]
+RewriteRule ^odborne-publikace$ /media-a-publikace [R=301,L]
+RewriteRule ^pro-odborniky$ /media-a-publikace [R=301,L]
+RewriteRule ^tv-a-rozhlas$ /media-a-publikace [R=301,L]
+RewriteRule ^uvod$ / [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+</IfModule>
+# END WordPress
