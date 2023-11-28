@@ -10,7 +10,9 @@ export default component$(() => {
       <section class="relative md:-mt-[76px] not-prose">
 
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+
           <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
+
             <div class="basis-2/3 text-center lg:text-left pb-10 md:pb-16 mx-auto">
               <h1 class="lg:pt-12 md:pt-2 sm:pt-2 text-4xl md:text-6xl sm:text-2-xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
                 Ordinace klinické&nbsp;psychologie a&nbsp;psychoterapie
@@ -54,7 +56,9 @@ export default component$(() => {
                 breakpoints={[320, 480, 640, 768, 1024]}
               />
             </div>
+
           </div>
+
         </div>
       </section>
     </>
