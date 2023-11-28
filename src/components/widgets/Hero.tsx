@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik"
 import { Image } from "@unpic/qwik"
-import { Constants } from "~/constants"
+// import { Constants } from "~/constants"
 import { subpath } from "~/root"
 const coverImage = `${subpath}/images/foto/budova.ostrava.jpg`
 
