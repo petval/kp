@@ -39,11 +39,11 @@ export default component$(() => {
 					},
 					{
 						title: 'Krizová intervence',
-						description: '',
+						description: 'je možností pro akutní potřebu pomoci klinické psycholožky v momentu náhlé a neúnosné situace jako např. úmrtí nebo ztráty blízké osoby, či prenatálnho dítěte, či při vážném onemocnění nebo v důsledku nečekané tragédie v bezprostředním okolí.',
 						icon: IconSun,
 					},
 					{
-						title: 'On-line konzultace s Mgr. Michaelou Bondy',
+						title: 'Online konzultace s Mgr. Michaelou Bondy',
 						description: 'nenahrazují individuální psychoterapii. Jsou hrazeny přímo klientem, cena 60 minutové konzultace je 2000 Kč ve večerních hodinách. Podpora pro osobní růst, řešení vnitřních i vnějších konfliktů. Objednávejte emailem, do předmětu napište \'on-line konzultace\'. Přijetím platby na účet rezervujete Vás termín. Další informace emailem.',
 						icon: IconMoon,
 					},

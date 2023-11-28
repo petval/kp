@@ -10,7 +10,7 @@ const IconBulb = qwikSerialized(() => import("../../components/icons/IconBulb"))
 const IconRocket = qwikSerialized(() => import("../../components/icons/IconRocket"))
 const IconStar = qwikSerialized(() => import("../../components/icons/IconStar"))
 const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
-//  const IconMoon = qwikSerialized(() => import("../../components/icons/IconMoon"));
+// const IconMoon = qwikSerialized(() => import("../../components/icons/IconMoon"));
 
 export default component$(() => {
 	return (
@@ -28,7 +28,7 @@ export default component$(() => {
 				items={[
 					{
 						title: 'Psychodiagnostická vyšetření',
-						description: 'komplexní psychodiagnostika dětí od 6 let, dospívajících a dospělých klientů.',
+						description: 'komplexní psychodiagnostika dětí od 6 let, dospívajících a dospělých klientů. Ke komplexnímu psychodiagnostickému vyšetření potřebujete indikaci lékařem tzn. žádanku typu K od praktického lékaře (OL, u dětí PLDD), neurologa, psychiatra, před bariatrickými operacemi internisty. K samotnému vyšetření doneste zdravotnické zprávy, které máte k dispozici (z dřívějšího psychologického vyšetření/u dětí z PPP a SPC/od neurologa/psychiatra či jiné). Po sjednání termínu vyšetření je můžete odeslat na náš email.',
 						icon: IconSun,
 					},
 					{
@@ -43,7 +43,7 @@ export default component$(() => {
 					},
 					{
 						title: 'Krizová intervence',
-						description: '',
+						description: 'je možností pro akutní potřebu pomoci psycholožky v momentu náhlé a neúnosné situace jako např. úmrtí nebo ztráty blízké osoby, či při vážném onemocnění nebo v důsledku nečekané tragédie v bezprostředním okolí.',
 						icon: IconStar,
 					},
 				]}
@@ -80,7 +80,7 @@ export default component$(() => {
 							<li><div class="ml-0">BUS č. 50 - cca 1 min ze &nbsp;<a href='https://mapy.cz/s/buhasonafu'><em>zastávky Český dům</em></a></div></li>
 							<li><div class="ml-0">TRAM č. 1 a 6 - cca 2 min ze &nbsp;<a href='https://mapy.cz/s/mebozurano'><em>zastávky Český dům</em></a></div></li>
 							<li><div class="ml-0">TRAM č. 2, 3, 7, 11, 12, 17 a BUS č. 39&nbsp;<a href='https://mapy.cz/s/hotatuluba'><em>zastávky Mírové náměstí</em></a></div></li>
-							<li><div class="ml-4 flex">cca  12 min chůze - ulicí Jeremenkova, na konci zabočit doleva na ulici Halasova, na kruhovém objezdu doprava je ulice Výstavní</div></li>
+							<li><div class="ml-4 flex">cca 12 min chůze - ulicí Jeremenkova, na konci zabočit doleva na ulici Halasova, na kruhovém objezdu doprava je ulice Výstavní</div></li>
 						</div>
 					</ul>
 				</div>
