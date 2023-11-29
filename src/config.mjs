@@ -12,8 +12,9 @@ export const SITE = {
 	// origin: `https://petval.github.io`,
 	// basePathname: '/kp',
 
-	// origin: `http://www.klinickapsycholozka.cz`,
-	origin: `http://m.klinickapsycholozka.cz`,
+	origin: `http://www.klinickapsycholozka.cz`,
+	// origin: `http://m.klinickapsycholozka.cz`,
+	// origin: `https://www.klinickapsycholozka.cz`,
 	basePathname: '/',
 	trailingSlash: true,
 

@@ -66,7 +66,7 @@ export default component$(() => {
                       <button class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center">
                         {text} <IconChevronDown class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
                       </button>
-                      <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-slate-800 rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
+                      <ul class="z-50 dropdown-menu md:backdrop-blur-md dark:md:bg-slate-800 rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
                         {items.map(({ text: text2, href: href2 }, key2) => (
                           <li key={key2}>
                             <a

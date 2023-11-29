@@ -1,6 +1,6 @@
-import { component$ } from "@builder.io/qwik";
-import { Image } from "@unpic/qwik";
-import { subpath } from "~/root";
+import { component$ } from "@builder.io/qwik"
+import { Image } from "@unpic/qwik"
+import { subpath } from "~/root"
 
 import IconStar from "~/components/icons/IconStar"
 import { Headline } from "../ui/Headline"
@@ -26,48 +26,47 @@ export default component$(() => {
       src: sideImg,
       alt: 'Budova ordinace Brušperk',
     },
-  };
-  const { title, items, image } = stepsData;
+  }
+  const { title, items, image } = stepsData
 
   return (
-    // <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-      // <div class="row-gap-10 grid gap-6 md:grid-cols-2">
-      //   <div class="mb-4 md:mb-0 md:py-4 md:pr-16">
     <section class="relative max-w-7xl mx-auto px-4 sm:px-40">
-				<div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
-					<div class="basis-2/3 text-center lg:text-left pb-10 md:pb-16 mx-auto">
-          {/* {title && <h2 class="font-heading mb-8 text-3xl font-bold lg:text-4xl">{title}</h2>} */}
+      <div class="py-12 lg:py-16 lg:flex lg:items-center lg:gap-8">
+
+        <div class="basis-2/3 sm:text-center md:text-left pb-10 md:pb-16 mx-auto">
+
           {title &&
             <Headline title={''} subtitle={''} highlight={title} classes={undefined} />
           }
+
           {items.map(({ title, description, icon: Icon }, index) => (
-              <div key={`item-steps-${index}`} class="flex">
-                <div class="mr-4 flex flex-col items-center">
-                  <div>
-                    {index !== items.length - 1 ? (
-                      <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900">
-                        {Icon
-                          ? ( <Icon class="h-6 w-6 text-primary-800 dark:text-slate-200" />)
-                          : ( <IconStar class="h-6 w-6 text-primary-800 dark:text-slate-200" /> )}
-                      </div>
-                    ) : (
-                      <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900 bg-primary-900">
-                        {Icon
-                          ? ( <Icon class="h-6 w-6 text-white dark:text-slate-200" /> )
-                          : ( <IconStar class="h-6 w-6 text-white dark:text-slate-200" /> )}
-                      </div>
-                    )}
-                  </div>
-                  {index !== items.length - 1 && <div class="h-full w-px bg-gray-300 dark:bg-slate-500"></div>}
+            <div key={`item-steps-${index}`} class="flex">
+              <div class="mr-4 flex flex-col items-center">
+                <div>
+                  {index !== items.length - 1 ? (
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900">
+                      {Icon
+                        ? (<Icon class="h-6 w-6 text-primary-800 dark:text-slate-200" />)
+                        : (<IconStar class="h-6 w-6 text-primary-800 dark:text-slate-200" />)}
+                    </div>
+                  ) : (
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900 bg-primary-900">
+                      {Icon
+                        ? (<Icon class="h-6 w-6 text-white dark:text-slate-200" />)
+                        : (<IconStar class="h-6 w-6 text-white dark:text-slate-200" />)}
+                    </div>
+                  )}
                 </div>
-                <div class={`pt-1 ${index !== items.length - 1 ? 'pb-8' : ''}`}>
-                  {title && <p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">{title}</p>}
-                  {description && <p class="text-gray-600 dark:text-slate-400">{description}</p>}
-                </div>
+                {index !== items.length - 1 && <div class="h-full w-px bg-gray-300 dark:bg-slate-500"></div>}
               </div>
-            ))}
+              <div class={`pt-1 ${index !== items.length - 1 ? 'pb-8' : ''}`}>
+                {title && <p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">{title}</p>}
+                {description && <p class="text-left text-gray-600 dark:text-slate-400">{description}</p>}
+              </div>
+            </div>
+          ))}
         </div>
-        {/* <div class="relative"> */}
+
         <div class="basis-1/3">
           {image && (
 
@@ -83,7 +82,8 @@ export default component$(() => {
             />
           )}
         </div>
+
       </div>
     </section>
-  );
-});
+  )
+})

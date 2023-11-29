@@ -7,20 +7,22 @@ const coverImage = `${subpath}/images/foto/budova.ostrava.jpg`
 export default component$(() => {
   return (
     <>
-      <section class="relative md:-mt-[76px] not-prose">
+      {/* <section class="relative md:-mt-[76px] not-prose"> */}
+      <section class="relative not-prose">
 
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="relative max-w-7xl mx-auto px-2 sm:px-6">
 
-          <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
+          {/* <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8"> */}
+          <div class="pt-0 md:flex sm:items-center lg:gap-8">
 
-            <div class="basis-2/3 text-center lg:text-left pb-10 md:pb-16 mx-auto">
-              <h1 class="lg:pt-12 md:pt-2 sm:pt-2 text-4xl md:text-6xl sm:text-2-xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
+            <div class="basis-2/3 sm:text-left pb-10 md:pb-16 mx-auto">
+              <h1 class="text-center md:pt-12 sm:pt-2 sm:pt-2 text-4xl md:text-6xl sm:text-2-xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
                 Ordinace klinické&nbsp;psychologie a&nbsp;psychoterapie
               </h1>
-              <div class="max-w-xl mx-auto lg:max-w-none py-4">
+              <div class="max-w-xl mx-auto lg:max-w-none py-4 pt-8">
                 <p class="text-base text-muted mb-6 dark:text-slate-300 left">
-                  <span class="font-semibold underline decoration-wavy decoration-1 decoration-secondary-600 underline-offset-2">Naše služby poskytujeme v</span>:{" "}
-                  <br /><span class="font-semibold decoration-1 decoration-secondary-600">Ostravě</span> - diagnostiku, psychoterapii a&nbsp;krizovou intervenci,
+                  <span class="font-bold decoration-secondary-600 text-primary-600 dark:text-purple-200 uppercase">Naše služby poskytujeme v</span>:
+                  <br /><br /><span class="font-semibold decoration-1 decoration-secondary-600">Ostravě</span> - diagnostiku, psychoterapii a&nbsp;krizovou intervenci,
                   <br /><span class="font-semibold decoration-1 decoration-secondary-600">Brušperku</span> - psychoterapii, krizovou intervenci a&nbsp;online konzultace.
                   <br /><br /><span style="color:red"><strong>Aktuálně</strong> máme velmi krátké termíny na psychodiagnostiku dětí i dospělých.</span>
                   <br /><br />Většina péče v naší ordinaci je hrazená z konta zdravotního pojištění, máme smlouvy s těmito pojišťovnami - 111 VZP, 201 VoZP, 205 ČPZP, 207 OZP, 211 ZPMV, 213 RBP.
