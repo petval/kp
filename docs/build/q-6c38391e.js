@@ -1,0 +1,1 @@
+import{b as o,h as s,_ as a}from"./q-d38e1fd3.js";import{subpath as r}from"./q-6d036e7d.js";const e=`${r}/images/foto/budova.ostrava.jpg`,i=o(s(()=>a(()=>import("./q-c20faf94.js"),["build/q-c20faf94.js","build/q-1aeaecbe.js","build/q-d38e1fd3.js","build/q-6d036e7d.js","build/q-518f2f8b.js"]),"s_V2cIdsOO22Y"));export{i as H,e as c};

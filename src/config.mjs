@@ -11,7 +11,9 @@ export const SITE = {
 	// origin: "https://qwind.pages.dev",
 	// origin: `https://petval.github.io`,
 	// basePathname: '/kp',
-	origin: `http://www.klinickapsycholozka.cz`,
+
+	// origin: `http://www.klinickapsycholozka.cz`,
+	origin: `http://m.klinickapsycholozka.cz`,
 	basePathname: '/',
 	trailingSlash: true,
 

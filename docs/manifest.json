@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "KP",
+  "short_name": "KP",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "KP web"
+}

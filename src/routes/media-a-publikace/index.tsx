@@ -2,6 +2,8 @@ import { SITE } from '~/config.mjs'
 import { component$ } from '@builder.io/qwik'
 import { Link } from '@builder.io/qwik-city'
 import type { DocumentHead } from "@builder.io/qwik-city"
+import { subpath } from "~/root"
+
 
 const items = [
 	{
@@ -88,7 +90,7 @@ const items = [
 	{
 		link: {
 			text: 'Contact between mother and child promotes health',
-			url: 'http://www.klinickapsycholozka.cz/wp-content/uploads/PRE_25_S1_2013_Mrowetz_p25-32.pdf'
+			url: `${subpath}/files/PRE_25_S1_2013_Mrowetz_p25-32.pdf`
 		},
 		by: 'Mrowetz, Michaela',
 		source: 'Int. J Prenatal and Perinatal Psychology and Medicine, Vol. 25, Suppl. 1 (2013), pp. 25–32, PRE250513A04',
