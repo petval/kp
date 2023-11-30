@@ -30,7 +30,7 @@ export default component$(() => {
                   <br /><br />Jsme nekuřácké pracoviště – zdravotnické zařízení – a jsme nekuřáci. Žádáme kuřáky, aby před vyšetřením a terapií nekouřili. I pasivní kouření dle výzkumů škodí zdraví a kontakt s kuřáky je pro nás zatěžující.
                 </p>
 
-                <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
+                {/* <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 lg:justify-start lg:m-0 lg:max-w-7xl">
                   <div class="flex w-full sm:w-auto">
                     <a class="btn btn-primary sm:mb-0 w-full" href={`${subpath}/ostrava`} rel="noopener">
                       Ostrava
@@ -41,7 +41,7 @@ export default component$(() => {
                     Brušperk
                     </a>
                   </div>
-                </div>
+                </div> */}
 
               </div>
             </div>

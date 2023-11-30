@@ -63,7 +63,7 @@ export default component$(() => {
 										<img class="h-full w-full md:h-96 md:w-96 object-cover" src={img} alt={name} width='256' height='256' />
 									</div>
 									<div class="p-4">
-										<div class="uppercase dark:text-indigo-100 tracking-wide text-xl text-indigo-500 font-bold">{name}</div>
+										<div class="uppercase dark:text-indigo-100 tracking-wide text-xl text-indigo-500 font-bold text-primary-600">{name}</div>
 										<p class="mt-2 dark:text-blue-300 text-slate-500 decoration-secondary-600 text-primary-600 font-semibold">{pos}<br />{edu}</p>
 										<p class="mt-2 dark:text-gray-100 text-slate-500">{desc}</p>
 										{elements.map((elem, index) => { return ( <p key={index} class="mt-2 text-slate-500">{elem}</p> ) })}

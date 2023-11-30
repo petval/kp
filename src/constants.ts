@@ -6,4 +6,7 @@ export class Constants {
 		Company: 'Ordinace klinické psychologie a psychoterapie'
 	}
 
+	public static stringIsNullOrEmpty(str: string | null | undefined): boolean {
+		return !str || str.length === 0
+	}
 }

@@ -1,23 +1,20 @@
-import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
-
-import Hero from '~/components/widgets/Hero';
-import Features from '~/components/widgets/Features';
-import Steps from '~/components/widgets/Steps';
-import FAQs from '~/components/widgets/FAQs';
+import FAQs from '~/components/widgets/FAQs'
+import Features from '~/components/widgets/Features'
+import Hero from '~/components/widgets/Hero'
+import Steps from '~/components/widgets/Steps'
+import { SITE } from '~/config.mjs'
+import { subpath } from '~/root'
+import { qwikSerialized } from '~/utils/qwikSerialized'
+import { component$ } from '@builder.io/qwik'
+import type { DocumentHead } from '@builder.io/qwik-city'
 // import Stats from '~/components/widgets/Stats';
 // import CallToAction from '~/components/widgets/CallToAction';
 
-import { qwikSerialized } from '~/utils/qwikSerialized';
-
-const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
-const IconApps = qwikSerialized(() => import("../components/icons/IconApps"));
-const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
 // const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBrandGoogle"));
 // const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
-
-import { SITE } from '~/config.mjs';
-
+const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"))
+const IconApps = qwikSerialized(() => import("../components/icons/IconApps"))
+const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"))
 export default component$(() => {
 	return (
 		<>
@@ -61,11 +58,26 @@ export default component$(() => {
 
 				]}
 			/>
+
+			<div class="justify-center w-auto max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 g:m-0 lg:max-w-7xl">
+				<div class="flex w-full sm:w-auto">
+					<a class="btn btn-primary sm:mb-0 w-full" href={`${subpath}/ostrava`} rel="noopener">
+						Ostrava
+					</a>
+				</div>
+				<div class="flex w-full sm:w-auto">
+					<a class="btn btn-primary sm:mb-0 w-full" href={`${subpath}/brusperk`} rel="noopener">
+						Brušperk
+					</a>
+				</div>
+			</div>
+			<div class="py-4" />
+
 			{/* <Stats /> */}
 			{/* <CallToAction /> */}
 		</>
-	);
-});
+	)
+})
 
 export const head: DocumentHead = {
 	title: SITE.title,
@@ -75,4 +87,4 @@ export const head: DocumentHead = {
 			content: SITE.description,
 		},
 	],
-};
+}

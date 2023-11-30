@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import { Constants } from "~/constants"
 
 // import IconTwitter from "~/components/icons/IconTwitter"
 // import IconInstagram from "~/components/icons/IconInstagram"
@@ -26,28 +27,17 @@ export default component$(() => {
       title: "Klientům",
       items: [
         { title: "Objedávky", href: "/objednavky" },
-        // { title: "Kontakty", href: "/kontakty" },
         { title: "Náš tým", href: "/nas-tym" },
         { title: "Média a publikace", href: "/media-a-publikace" },
       ],
     },
-    // {
-    //   title: "Informace",
-    //   items: [
-    //     { title: "Docs", href: "#" },
-    //     { title: "Community Forum", href: "#" },
-    //     { title: "Professional Services", href: "#" },
-    //     { title: "Skills", href: "#" },
-    //     { title: "Status", href: "#" },
-    //   ],
-    // },
     {
       title: "Společnost",
       items: [
         { title: "+420 608 959 030", href: "" },
-        { title: "ordinace@klinickapsycholozka.cz", href: "" },
+        { title: "ordinace@klinickapsycholozka.cz", href: "mailto:ordinace@klinickapsycholozka.cz" },
         { title: "IČ: 68316992", href: "" },
-        // { title: "Blog", href: "#" },
+        { title: "86-5201200247/0100", href: "" },
       ]
     },
   ];
@@ -87,12 +77,12 @@ export default component$(() => {
                 <ul class="text-sm">
                   {items.map(({ title, href }, index2) => (
                     <li key={index2} class="mb-2">
-                      <Link
-                        class="text-gray-600 hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
-                        href={href}
-                      >
-                        {title}
-                      </Link>
+                      {Constants.stringIsNullOrEmpty(href)
+                        ? <span class="text-gray-600 hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out">{title}</span>
+                        : <Link href={href} class="text-gray-600 hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out">
+                            {title}
+                          </Link>
+                      }
                     </li>
                   ))}
                 </ul>
