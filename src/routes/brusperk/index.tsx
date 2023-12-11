@@ -34,7 +34,7 @@ export default component$(() => {
 				items={[
 					{
 						title: 'Psychoterapie',
-						description: 'léčba ponejvíce reaktivních stavů úzkosti a deprese, psychosomatických problémů dospělých lidí, vývojových a existenciálních problémů adolescentů a dětí od 6 let.',
+						description: 'léčba ponejvíce reaktivních stavů úzkosti a deprese, psychosomatických problémů dospělých lidí, vývojových a existenciálních problémů adolescentů.',
 						icon: IconBulb,
 					},
 					{

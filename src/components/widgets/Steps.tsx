@@ -18,7 +18,7 @@ export default component$(() => {
       },
       {
         title: 'Práce',
-        description: 'Přijmeme psycholožku / psychologa se specializačním kurzem pro zdravotnictví (anebo v přípravě), psycholožku / psychologa v atestační přípravě, klinickou psycholožku / klinického psychologa.',
+        description: 'klinickou psycholožku / klinického psychologa',
         icon: IconStar,
       },
     ],
