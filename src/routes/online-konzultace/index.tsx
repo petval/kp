@@ -28,8 +28,10 @@ export default component$(() => {
 			/>
 
 			<div class="text-base md:text-base leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200 m-8 flex flex-wrap p-5">
-				<div id="zenamu-calendar" calendar-id="5bd7848ed5932f3b6a9f87b363917947"></div>
-				<script src="https://zenamu.com/calendar/list.js" ></script>
+				{/* <div id="zenamu-calendar" calendar-id="5bd7848ed5932f3b6a9f87b363917947"></div>
+				<script src="https://zenamu.com/calendar/list.js" ></script> */}
+
+				<iframe src="https://michaelabondy.sdiary.cz" name="sdiary" title="Sdiary.cz rezervace: michaelabondy" allowFullScreen="1" scroll="no" style="border:0;width:100%;height:1800px;overflow-y:auto;" />
 			</div>
 
 		</>
