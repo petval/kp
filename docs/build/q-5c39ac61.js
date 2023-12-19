@@ -1,1 +1,0 @@
-import{b as t,h as o,_ as e}from"./q-b27f32ea.js";import{S as i}from"./q-a21f02c1.js";const r=t(o(()=>e(()=>import("./q-4c5f6863.js"),["build/q-4c5f6863.js","build/q-b27f32ea.js"]),"s_zz0sHf8gLh8")),n={title:"Blog — Qwind",meta:[{name:"description",content:i.description}]};export{r as default,n as head};

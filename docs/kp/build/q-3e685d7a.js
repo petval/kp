@@ -1,1 +1,0 @@
-const t={text:"Menu",items:[{text:"Stránky",items:[{text:"Služby",href:"#"},{text:"O nás",href:"/o-nas/"},{text:"Podmínky",href:"/podminky/"},{text:"Kontakty",href:"/kontakty/"}]}]};export{t as default};

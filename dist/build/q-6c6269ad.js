@@ -1,1 +1,0 @@
-import{b as t,h as _,_ as e}from"./q-d38e1fd3.js";const r=t(_(()=>e(()=>import("./q-d45d7274.js"),["build/q-d45d7274.js","build/q-d38e1fd3.js"]),"s_PLe07Ve9vVY")),s={title:"Error 404"};export{r as default,s as head};

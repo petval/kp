@@ -1,1 +1,0 @@
-const e={text:"Menu",items:[{text:"Služby",items:[{text:"Ostrava",href:"/ostrava/"},{text:"Brušperk",href:"/brusperk/"},{text:"Vzdělávání a práce",href:"/vzdelavani-a-prace/"},{text:"Přehled",href:"/"}]},{text:"Klientům",items:[{text:"Objednávky",href:"/objednavky/"},{text:"Náš tým",href:"/nas-tym/"},{text:"Média a publikace",href:"/media-a-publikace/"}]}]};export{e as default};

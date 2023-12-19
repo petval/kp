@@ -1,1 +1,0 @@
-const t={text:"Menu",items:[{text:"Služby",items:[{text:"Ostrava",href:"/kp/ostrava/"},{text:"Brušperk",href:"/kp/brusperk/"},{text:"Vzdělávání a práce",href:"/kp/vzdelavani-a-prace/"}]},{text:"Kontakty",items:[{text:"Kontakty",href:"/kp/kontakty/"},{text:"O nás",href:"/kp/o-nas/"},{text:"Média",href:"/kp/media/"}]}]};export{t as default};

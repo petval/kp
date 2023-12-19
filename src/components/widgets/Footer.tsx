@@ -26,7 +26,7 @@ export default component$(() => {
     {
       title: "Klientům",
       items: [
-        { title: "Objedávky", href: "/objednavky" },
+        { title: "Objednávky", href: "/objednavky" },
         { title: "Náš tým", href: "/nas-tym" },
         { title: "Média a publikace", href: "/media-a-publikace" },
       ],
