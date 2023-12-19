@@ -13,7 +13,7 @@ export default extendConfig(baseConfig, () => {
 				input: ["@qwik-city-plan"],
 			},
 		},
-		publicDir: "docs",
+		publicDir: "dist",
 		plugins: [
 			staticAdapter({
 				origin: SITE.origin + Constants.RepoPath ,
