@@ -3,8 +3,8 @@ import { SITE } from '~/config.mjs'
 // import { qwikSerialized } from '~/utils/qwikSerialized'
 import { component$ } from '@builder.io/qwik'
 import type { DocumentHead } from "@builder.io/qwik-city"
-import { Headline } from '~/components/ui/Headline'
-import { Styles as S } from '~/constants'
+// import { Headline } from '~/components/ui/Headline'
+// import { Styles as S } from '~/constants'
 // import { HiLinkOutline } from '@qwikest/icons/heroicons'
 
 // const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
