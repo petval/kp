@@ -5,12 +5,13 @@ import { ItemGrid } from "~/components/ui/ItemGrid"
 // import { Styles as S } from "~/constants"
 
 import IconStar from "~/components/icons/IconStar"
-
+import type { ILink } from "~/model/Ilink"
 interface Item {
   title?: string
   description?: string
   icon?: any
   classes?: Record<string, string>
+  link?: ILink
 }
 
 interface Props {

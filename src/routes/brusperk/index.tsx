@@ -16,7 +16,7 @@ const IconMoon = qwikSerialized(() => import("../../components/icons/IconMoon"))
 export default component$(() => {
 	return (
 		<>
-			<div class={S.start}>
+			<div class={S.header}>
 				<div class={S.pageTitle}>Brušperk</div>
 			</div>
 
@@ -37,8 +37,12 @@ export default component$(() => {
 					},
 					{
 						title: 'Online konzultace s Mgr. Michaelou Bondy',
-						description: 'nenahrazují individuální psychoterapii. Jsou hrazeny přímo klientem, cena 60 minutové konzultace je 2000 Kč ve večerních hodinách. Podpora pro osobní růst, řešení vnitřních i vnějších konfliktů. Objednávejte emailem, do předmětu napište \'on-line konzultace\'. Přijetím platby na účet rezervujete Vás termín. Další informace emailem.',
+						description: 'nenahrazují individuální psychoterapii. Podpora pro osobní růst, řešení vnitřních i vnějších konfliktů. Jsou hrazeny přímo klientem.',
 						icon: IconMoon,
+						link: {
+							text: 'Objednat termín',
+							url: '/online-konzultace/',
+						}
 					},
 					{
 						title: 'Profesní vzdělávání',

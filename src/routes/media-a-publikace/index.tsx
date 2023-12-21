@@ -101,26 +101,30 @@ const items = [
 export default component$(() => {
 	return (
 		<>
-			<div class={S.start}>
+			<div class={S.header}>
 				<div class={S.pageTitle}>Média a publikace</div>
 			</div>
 
-			<div class="text-gray-800 dark:text-gray-300 font-medium p-4">Příjmení 'Mrowetz' a 'Mrowetz - Bartáková' používala Mgr. Michaela Bondy v prvním manželství.</div>
-			{items.map(({ link, by, source }, index) => (
-				<div key={index} class="col-span-6 md:col-span-3 lg:col-span-2 p-4">
-					{Array.isArray(items) && items.length > 0 && (
-						<ul class="text-base">
-							<li key={index}>
-								<Link
-									class="text-gray-600 hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
-									href={link.url}>{link.text}</Link>
-							</li>
-							<li key={index}>{by}</li>
-							<li key={index}>{source}</li>
-						</ul>
-					)}
-				</div>
-			))}
+			<div class={S.start}>
+
+
+				<div class="text-gray-800 dark:text-gray-300 font-medium p-4">Příjmení 'Mrowetz' a 'Mrowetz - Bartáková' používala Mgr. Michaela Bondy v prvním manželství.</div>
+				{items.map(({ link, by, source }, index) => (
+					<div key={index} class="col-span-6 md:col-span-3 lg:col-span-2 p-4">
+						{Array.isArray(items) && items.length > 0 && (
+							<ul class="text-base">
+								<li key={index}>
+									<Link
+										class="text-gray-600 hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
+										href={link.url}>{link.text}</Link>
+								</li>
+								<li key={index}>{by}</li>
+								<li key={index}>{source}</li>
+							</ul>
+						)}
+					</div>
+				))}
+			</div>
 		</>
 	)
 })

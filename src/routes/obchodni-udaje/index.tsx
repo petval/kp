@@ -25,11 +25,14 @@ const linkCommerce = [
 export default component$(() => {
 	return (
 		<>
-			<div class={S.start}>
-				<div class={S.pageTitle}>Obchodní údaje</div>
+
+			<div class={S.header}>
+				<div class={S.h1}>Obchodní údaje</div>
 			</div>
 
-			<div class='py-12 md:py-12 m4'>
+			{/* <div class={S.start}> */}
+
+				<div class='py-12 md:py-12 m4'>
 
 				<ul class='flex flex-col w-full mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0 '>
 					{items.map(({ key, service, link }, index) => (

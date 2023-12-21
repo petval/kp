@@ -16,7 +16,7 @@ const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
 export default component$(() => {
 	return (
 		<>
-			<div class={S.start}>
+			<div class={S.header}>
 				<div class={S.pageTitle}>Ostrava</div>
 			</div>
 

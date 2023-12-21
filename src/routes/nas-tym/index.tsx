@@ -47,7 +47,7 @@ const items = [
 export default component$(() => {
 	return (
 		<>
-			<div class={S.start}>
+			<div class={S.header}>
 				<div class={S.pageTitle}>Náš tým</div>
 			</div>
 

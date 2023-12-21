@@ -7,7 +7,6 @@ import { subpath } from '~/root'
 import { qwikSerialized } from '~/utils/qwikSerialized'
 import { component$ } from '@builder.io/qwik'
 import type { DocumentHead } from '@builder.io/qwik-city'
-// import { Styles as S } from '~/constants'
 // import Stats from '~/components/widgets/Stats';
 // import CallToAction from '~/components/widgets/CallToAction';
 
