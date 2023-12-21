@@ -4,6 +4,7 @@ import type { JSX } from "@builder.io/qwik/jsx-runtime"
 import { SITE } from "~/config.mjs"
 import { subpath } from "~/root"
 import { HiEnvelopeOpenOutline, HiPhoneOutline } from "@qwikest/icons/heroicons"
+// import { Styles as S } from '~/constants'
 
 // elements.push(<span><a class="dark:text-purple-300" href='https://cs.wikipedia.org/wiki/Michaela_Mrowetz'><em>Wikipedie</em></a></span> as JSX.Element)
 
@@ -27,9 +28,9 @@ const items = [
 		bu: [`${subpath}/images/qr.bu.jpg`, '86-5201200247/0100', 'IBAN: CZ28 0100 0000 8652 0120 0247'],
 		elements: new Array<JSX.Element>(
 			<div class="flex">U Mgr. Bondy je to 1500 Kč (750 Kč registrace a 750 Kč vratná záloha).</div>,
-			<div class="flex">On-line konzultace s Mgr. Michaelou Bondy si hradí klienti sami.</div>,
 			<div class="flex">Opakované omluvy mohou být důvodem k ukončení péče.</div>,
 			<div class="flex">Opakované neomluvy mohou být důvodem k tomu, že Vás již neobjednáme.</div>,
+			<div class="flex">On-line konzultace s Mgr. Michaelou Bondy si hradí klienti sami.</div>,
 		)
 	},
 ]

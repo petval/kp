@@ -13,6 +13,7 @@ export default component$(() => {
       title: "Služby",
       items: [
         { title: "Přehled služeb", href: "/" },
+        { title: "Objednávky", href: "/objednavky" },
         { title: "Vzdělávání a práce", href: "/vzdelavani-a-prace" },
       ],
     },
@@ -26,22 +27,30 @@ export default component$(() => {
     {
       title: "Klientům",
       items: [
-        { title: "Objednávky", href: "/objednavky" },
         { title: "Náš tým", href: "/nas-tym" },
+        { title: "Online konzultace", href: "/online-konzultace" },
         { title: "Média a publikace", href: "/media-a-publikace" },
       ],
     },
     {
       title: "Společnost",
       items: [
+        { title: "Obchodní údaje a podmínky", href: "/obchodni-udaje" },
         { title: "+420 608 959 030", href: "" },
         { title: "ordinace@klinickapsycholozka.cz", href: "mailto:ordinace@klinickapsycholozka.cz" },
         { title: "IČ: 68316992", href: "" },
-        { title: "86-5201200247/0100", href: "" },
       ]
     },
   ];
 
+/*
+název společnosti, adresa dle obchodního rejstříku, IČ
+e-mail, kontaktní telefon
+všeobecné obchodní podmínky
+reklamační podmínky (vrácení zboží, peněz)
+informace o ochraně osobních údajů
+dodací a platební podmínky
+*/
   // const social = [
   //   { label: "Twitter", icon: IconTwitter, href: "#" },
   //   { label: "Instagram", icon: IconInstagram, href: "#" },

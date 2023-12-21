@@ -3,9 +3,10 @@ import { SITE } from '~/config.mjs'
 import { qwikSerialized } from '~/utils/qwikSerialized'
 import { component$ } from '@builder.io/qwik'
 import type { DocumentHead } from "@builder.io/qwik-city"
+import { Styles as S } from '~/constants'
 
-const IconBulb = qwikSerialized(() => import("../../components/icons/IconBulb"))
-const IconRocket = qwikSerialized(() => import("../../components/icons/IconRocket"))
+// const IconBulb = qwikSerialized(() => import("../../components/icons/IconBulb"))
+// const IconRocket = qwikSerialized(() => import("../../components/icons/IconRocket"))
 const IconStar = qwikSerialized(() => import("../../components/icons/IconStar"))
 const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
 // const IconMoon = qwikSerialized(() => import("../../components/icons/IconMoon"))
@@ -13,9 +14,14 @@ const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
 export default component$(() => {
 	return (
 		<>
+
+			<div class={S.start}>
+				<div class={S.pageTitle}>Vzdělávání</div>
+			</div>
+
 			<Features
 				highlight=''
-				title='Vzdělávání'
+				title=''
 				subtitle='Pracoviště je akreditováno k uskutečňování vzdělávacího programu v oboru klinická psychologie u Ministerstva zdravotnictví České republiky'
 				items={[
 					{
@@ -33,18 +39,8 @@ export default component$(() => {
 				items={[
 					{
 						title: '',
-						description: 'psycholožku / psychologa se specializačním kurzem pro zdravotnictví (anebo v přípravě)',
-						icon: IconBulb,
-					},
-					{
-						title: '',
-						description: 'psycholožku / psychologa v atestační přípravě',
-						icon: IconSun,
-					},
-					{
-						title: '',
 						description: 'klinickou psycholožku / klinického psychologa',
-						icon: IconRocket,
+						icon: IconSun,
 					},
 				]}
 			/>

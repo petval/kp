@@ -1,4 +1,5 @@
 import { twMerge } from "tailwind-merge";
+import { Styles as S } from "~/constants";
 
 interface Props {
   title?: string;
@@ -12,22 +13,24 @@ export const Headline = (props: Props) => {
 
   const {
     container: containerClass = "max-w-3xl",
-    title: titleClass = "text-4xl md:text-5xl ",
-    subtitle: subtitleClass = "text-xl",
+    title: titleClass = S.pageTitle,
+    // title: titleClass = "text-4xl md:text-5xl ",
+    subtitle: subtitleClass = S.subTitle,
   } = classes;
 
   return (title || subtitle || highlight) ? (
+      // <div class={twMerge(" text-center", containerClass)}>
       <div class={twMerge("mb-8 md:mx-auto md:mb-8 text-center", containerClass)}>
         {highlight && (
           <p
-            // class="text-base text-primary-600 dark:text-purple-200 font-bold tracking-wide uppercase"
             class="uppercase dark:text-indigo-100 tracking-wide text-xl text-indigo-500 font-bold text-primary-600"
             dangerouslySetInnerHTML={highlight}
           />
         )}
         {title && (
           <h2
-            class={twMerge("font-bold leading-tighter tracking-tighter font-heading text-heading", titleClass)}
+            // class={twMerge("font-bold leading-tighter tracking-tighter font-heading text-heading", titleClass)}
+            class={twMerge("", titleClass)}
             dangerouslySetInnerHTML={title}
           />
         )}

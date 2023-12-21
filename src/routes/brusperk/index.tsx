@@ -4,6 +4,7 @@ import { qwikSerialized } from '~/utils/qwikSerialized'
 import { component$ } from '@builder.io/qwik'
 import type { DocumentHead } from "@builder.io/qwik-city"
 import { Headline } from '~/components/ui/Headline'
+import { Styles as S } from '~/constants'
 // import { HiLinkOutline } from '@qwikest/icons/heroicons'
 
 const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
@@ -12,19 +13,11 @@ const IconRocket = qwikSerialized(() => import("../../components/icons/IconRocke
 const IconBulb = qwikSerialized(() => import("../../components/icons/IconBulb"))
 const IconMoon = qwikSerialized(() => import("../../components/icons/IconMoon"))
 
-// const items = [
-// 	{ service: 'psychoterapie' },
-// 	{ service: 'krizová intervence' },
-// 	{ service: 'profesní vzdělávání' },
-// ]
-
 export default component$(() => {
 	return (
 		<>
-			<div class="basis-1/2 text-center lg:text-left pb-2 md:pb-2 mx-auto flex flex-col items-center justify-center">
-				<h3 class="text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200">
-					Brušperk
-				</h3>
+			<div class={S.start}>
+				<div class={S.pageTitle}>Brušperk</div>
 			</div>
 
 			<Features

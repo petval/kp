@@ -3,6 +3,7 @@ import { component$ } from '@builder.io/qwik'
 import { Link } from '@builder.io/qwik-city'
 import type { DocumentHead } from "@builder.io/qwik-city"
 import { subpath } from "~/root"
+import { Styles as S } from '~/constants'
 
 
 const items = [
@@ -100,10 +101,8 @@ const items = [
 export default component$(() => {
 	return (
 		<>
-			<div class="basis-1/2 text-center lg:text-left pb-2 md:pb-2 mx-auto flex flex-col items-center justify-center">
-				<h3 class="text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200">
-					Média a publikace
-				</h3>
+			<div class={S.start}>
+				<div class={S.pageTitle}>Média a publikace</div>
 			</div>
 
 			<div class="text-gray-800 dark:text-gray-300 font-medium p-4">Příjmení 'Mrowetz' a 'Mrowetz - Bartáková' používala Mgr. Michaela Bondy v prvním manželství.</div>

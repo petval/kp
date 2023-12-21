@@ -4,6 +4,7 @@ import { SITE } from '~/config.mjs'
 import { component$ } from '@builder.io/qwik'
 import type { DocumentHead } from "@builder.io/qwik-city"
 import { Headline } from '~/components/ui/Headline'
+import { Styles as S } from '~/constants'
 // import { HiLinkOutline } from '@qwikest/icons/heroicons'
 
 // const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
@@ -16,10 +17,10 @@ const allowFullScreen: boolean| undefined = true
 export default component$(() => {
 	return (
 		<>
-			<div class="basis-1/2 text-center lg:text-left pb-2 md:pb-2 mx-auto flex flex-col items-center justify-center">
-				<h3 class="text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200">
+			<div class={S.start}>
+				<div class={S.h1}>
 					Online konzultace
-				</h3>
+				</div>
 			</div>
 
 			<Headline

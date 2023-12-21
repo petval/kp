@@ -2,7 +2,8 @@ import { component$ } from "@builder.io/qwik"
 import type { DocumentHead } from "@builder.io/qwik-city"
 import type { JSX } from "@builder.io/qwik/jsx-runtime"
 import { SITE } from "~/config.mjs"
-import { subpath } from "~/root";
+import { subpath } from "~/root"
+import { Styles as S } from '~/constants'
 
 const elements: JSX.Element[] = []
 elements.push(<span class="dark:text-blue-300">Spoluautorka knihy <a href='https://www.databazeknih.cz/knihy/bonding-porodni-radost-podpora-rodiny-jako-cesta-k-ozdraveni-porodnictvi-a-spolecnosti-103506'><em>Bonding - porodní radost</em></a></span> as JSX.Element)
@@ -46,16 +47,14 @@ const items = [
 export default component$(() => {
 	return (
 		<>
-			<div class="basis-1/2 text-center lg:text-left pb-2 md:pb-2 mx-auto flex flex-col items-center justify-center">
-				<h3 class="text-4xl md:text-4xl font-bold leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200">
-					Náš tým
-				</h3>
+			<div class={S.start}>
+				<div class={S.pageTitle}>Náš tým</div>
 			</div>
 
 			<div class="md:flex md:items-center md:justify-between py-12 md:py-12">
 
 				<ul class="flex flex-col mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
-					{items.map(({ name, pos, edu, img, desc, elements}, index) => (
+					{items.map(({ name, pos, edu, img, desc, elements }, index) => (
 						<li key={index} class='m-4'>
 							<div class="max-w-md mx-auto bg-white rounded-xl dark:text-white dark:bg-transparent shadow-md overflow-hidden md:max-w-4xl">
 								<div class="md:flex">
@@ -66,7 +65,7 @@ export default component$(() => {
 										<div class="uppercase dark:text-indigo-100 tracking-wide text-xl text-indigo-500 font-bold text-primary-600">{name}</div>
 										<p class="mt-2 dark:text-blue-300 text-slate-500 decoration-secondary-600 text-primary-600 font-semibold">{pos}<br />{edu}</p>
 										<p class="mt-2 dark:text-gray-100 text-slate-500">{desc}</p>
-										{elements.map((elem, index) => { return ( <p key={index} class="mt-2 text-slate-500">{elem}</p> ) })}
+										{elements.map((elem, index) => { return (<p key={index} class="mt-2 text-slate-500">{elem}</p>) })}
 									</div>
 								</div>
 							</div>
