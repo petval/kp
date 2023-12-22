@@ -8,6 +8,7 @@
 
 # Development
 node_modules/
+deploy.js
 
 # Cache
 .cache
