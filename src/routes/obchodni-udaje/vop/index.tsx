@@ -18,7 +18,7 @@ export default component$(() => {
 
 				<div class={S.h3}>1. Vymezení základních pojmů</div>
 				<div class={S.para}>1.1 <strong>Objednatel</strong> je fyzická osoba nebo právnická osoba vstupující do smluvního vztahu s Poskytovatelem. Objednatel se zavazuje uvést své informace pravdivě. Provozovatel si vyhrazuje právo odmítnout objednávku, pokud se bude domnívat, že informace v objednávce byly nepravdivě uvedeny.</div>
-				<div class={S.para}>1.2 <strong>Poskytovatel</strong> je <em>Mgr. Michaela Bondy, Veselíčko 1064, Brušperk, 739 44, IČ: 11668695, email: ordinace@klinickapsycholozka.cz, telefon: +420 608 959 030</em></div>
+				<div class={S.para}>1.2 <strong>Poskytovatel</strong> je <em>Mgr. Michaela Bondy, Veselíčko 1064, Brušperk, 739 44, IČ: 68316992, email: ordinace@klinickapsycholozka.cz, telefon: +420 608 959 030</em></div>
 				<div class={S.para}>1.3 <strong>Objednávka</strong> je dokument, který buď samostatně, nebo s jinými smluvními dokumenty, vymezuje obsah smluvního vztahu mezi Objednatelem a Poskytovatelem. Poskytovatel potvrzuje souhlas s těmito VOP a přebírá na sebe práva a povinnosti, které mu z nich vyplývají. Objednatel projevuje souhlas s vytvořenou online objednávkou formou úhrady objednávky.</div>
 				<div class={S.para}>1.4 <strong>Důvěrnou informací</strong> se rozumí jakákoliv informace o Objednateli, kterou se Poskytovatel dozví v souvislosti s naplněním předmětu uzavřené smlouvy, která není veřejně přístupná a není určena třetím osobám.</div>
 

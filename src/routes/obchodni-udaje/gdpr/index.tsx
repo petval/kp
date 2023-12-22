@@ -15,7 +15,7 @@ export default component$(() => {
 
 
 				<div class={S.h2}>1. Základní ustanovení</div>
-				<div class={S.para}>Správcem osobních údajů podle čl. 4 bod 7 nařízení Evropského parlamentu a Rady (EU) 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů (dále jen: „GDPR”) je <em>Mgr. Michaela Bondy, Veselíčko 1064, Brušperk, 739 44, IČ: 11668695, email: ordinace@klinickapsycholozka.cz, telefon: +420 608 959 030</em> (dále jen: „správce“).</div>
+				<div class={S.para}>Správcem osobních údajů podle čl. 4 bod 7 nařízení Evropského parlamentu a Rady (EU) 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů (dále jen: „GDPR”) je <em>Mgr. Michaela Bondy, Veselíčko 1064, Brušperk, 739 44, IČ: 68316992, email: ordinace@klinickapsycholozka.cz, telefon: +420 608 959 030</em> (dále jen: „správce“).</div>
 				<div class={S.para}>Osobními údaji se rozumí veškeré informace o identifikované nebo identifikovatelné fyzické osobě; identifikovatelnou fyzickou osobou je fyzická osoba, kterou lze přímo či nepřímo identifikovat, zejména odkazem na určitý identifikátor, například jméno, identifikační číslo, lokační údaje, síťový identifikátor nebo na jeden či více zvláštních prvků fyzické, fyziologické, genetické, psychické, ekonomické, kulturní nebo společenské identity této fyzické osoby.
 				</div>
 
