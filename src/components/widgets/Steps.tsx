@@ -18,7 +18,7 @@ export default component$(() => {
       },
       {
         title: 'Práce',
-        description: 'klinickou psycholožku / klinického psychologa',
+        description: 'Přijmeme klinickou psycholožku / klinického psychologa.',
         icon: IconStar,
       },
     ],

@@ -55,7 +55,6 @@ export default component$(() => {
 						title: 'Jak dlouhé máte čekací doby?',
 						description: 'Buďte vytrvalí, volejte opakovaně, napište email a jednejte podle instrukcí. Naši klienti jsou disciplinovaní a omlouvají se, někdy vznikne termín ze dne na den, někdy to trvá několik měsíců.',
 					},
-
 				]}
 			/>
 
