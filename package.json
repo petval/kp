@@ -4,7 +4,7 @@
   "version": "0.118.0",
   "private": true,
   "scripts": {
-    "build": "qwik build && jampack ./dist",
+    "build": "qwik build && jampack ./dist && node deploy.js",
     "build.client": "vite build",
     "build.preview": "vite build --ssr src/entry.preview.tsx",
     "build.server": "vite build -c adapters/static/vite.config.ts",
