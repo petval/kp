@@ -1,17 +1,19 @@
+import { Headline } from '~/components/ui/Headline'
 import Features from '~/components/widgets/Features'
 import { SITE } from '~/config.mjs'
+import { Styles as S } from '~/constants'
+import { subpath } from '~/root'
 import { qwikSerialized } from '~/utils/qwikSerialized'
 import { component$ } from '@builder.io/qwik'
+import { Image } from '@unpic/qwik'
 import type { DocumentHead } from "@builder.io/qwik-city"
-import { Styles as S } from '~/constants'
-import { Headline } from '~/components/ui/Headline'
-// import { HiLinkOutline } from '@qwikest/icons/heroicons'
 
+const coverImage = `${subpath}/images/foto/budova.ostrava.jpg`
 const IconBulb = qwikSerialized(() => import("../../components/icons/IconBulb"))
+// const IconMoon = qwikSerialized(() => import("../../components/icons/IconMoon"));
 const IconRocket = qwikSerialized(() => import("../../components/icons/IconRocket"))
 const IconStar = qwikSerialized(() => import("../../components/icons/IconStar"))
 const IconSun = qwikSerialized(() => import("../../components/icons/IconSun"))
-// const IconMoon = qwikSerialized(() => import("../../components/icons/IconMoon"));
 
 export default component$(() => {
 	return (
@@ -56,8 +58,20 @@ export default component$(() => {
 
 			<div class="flex flex-wrap justify-center text-base md:text-base leading-tighter tracking-tighter mb-2 font-heading dark:text-gray-200 m-8 wrap p-2">
 
-				<div class="w-full sm:w-1/2 md:w-1/2 p-2">
+				<div class="w-full sm:w-1/3 md:w-1/3 p-2">
+					<Image
+						src={coverImage}
+						layout="constrained"
+						width={300}
+						height={300}
+						alt="Budova ordinace Ostrava"
+						class="mx-auto drop-shadow-2xl rounded-md items-left justify-left"
+						priority={true}
+						breakpoints={[320, 480, 640, 768, 1024]}
+					/>
+				</div>
 
+				<div class="w-full sm:w-1/3 md:w-1/3 p-2">
 					<div class="font-bold">Příjezd autem</div>
 					<div>
 						<ul class="py-2">
@@ -72,7 +86,7 @@ export default component$(() => {
 					</div>
 				</div>
 
-				<div class="w-full sm:w-1/2 md:w-1/2 p-2">
+				<div class="w-full sm:w-1/3 md:w-1/3 p-2">
 					<div class="font-bold">Příjezd MHD</div>
 					<ul class="py-2">
 						<div>
