@@ -13,9 +13,9 @@ export default component$(() => {
         <div class="relative max-w-7xl mx-auto px-2 sm:px-6">
 
           {/* <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8"> */}
-          <div class="self-center m-4 text-base font-bold text-red-500 dark:text-yellow-500 flex items-center">
+          {/* <div class="self-center m-4 text-base font-bold text-red-500 dark:text-yellow-500 flex items-center">
             Pozůstalým a ohroženým svědkům černého čtvrtku mohu poskytnout krizovou intervenci v ordinaci v Brušperku. Pište, prosím na email: michaelabondy@klinickapsycholozka.cz, do předmětu "FF UK".
-          </div>
+          </div> */}
           <h1 class="text-center md:pt-12 sm:pt-2 sm:pt-2 text-4xl md:text-6xl sm:text-2-xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
             Ordinace klinické&nbsp;psychologie a&nbsp;psychoterapie
           </h1>
