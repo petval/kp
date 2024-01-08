@@ -27,7 +27,7 @@ export default component$(() => {
                   <span class="font-bold decoration-secondary-600 text-primary-600 dark:text-purple-200 uppercase">Naše služby poskytujeme v</span>:
                   <br /><br /><span class="font-semibold decoration-1 decoration-secondary-600">Ostravě</span> - diagnostiku, psychoterapii a&nbsp;krizovou intervenci,
                   <br /><span class="font-semibold decoration-1 decoration-secondary-600">Brušperku</span> - psychoterapii, krizovou intervenci a&nbsp;online konzultace.
-                  <br /><br /><span class="text-base text-red-500 dark:text-yellow-500"><strong>Aktuálně</strong> máme velmi krátké termíny na psychodiagnostiku dětí i dospělých.</span>
+                  {/* <br /><br /><span class="text-base text-red-500 dark:text-yellow-500"><strong>Aktuálně</strong> máme velmi krátké termíny na psychodiagnostiku dětí i dospělých.</span> */}
                   <br /><br />Většina péče v naší ordinaci je hrazená z konta zdravotního pojištění, máme smlouvy s těmito pojišťovnami - 111 VZP, 201 VoZP, 205 ČPZP, 207 OZP, 211 ZPMV, 213 RBP.
                   <br /><br />K vyšetření / terapeutickému sezení se dostavte v čas určený psycholožkou nebo asistentkou, NE s velkým předstihem, a zvoňte nejdříve 5 minut před domluveným termínem.
                   <br /><br />Jsme nekuřácké pracoviště – zdravotnické zařízení – a jsme nekuřáci. Žádáme kuřáky, aby před vyšetřením a terapií nekouřili. I pasivní kouření dle výzkumů škodí zdraví a kontakt s kuřáky je pro nás zatěžující.
